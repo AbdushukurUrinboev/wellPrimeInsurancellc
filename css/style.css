@@ -6,6 +6,81 @@
     --dark: #14141F;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+p{
+    font-weight: bold !important;
+}
+li{
+    width: auto;
+    font-size: 20px;
+    font-weight: normal !important;
+    text-align: left;
+    align-items: center;
+    padding-left: 10px;
+    list-style: none;
+}
+.click{
+    font-size: 20px;
+    color: #DDDDDD;
+    background-color: #4ec935a4;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    
+}
+.click:hover{
+    background-color: #4ec93575;
+
+}
+.agency_h1{
+    color: #61db1a;
+}
+.account_input{
+    width: 500px;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+.account_btn{
+    font-weight: bold !important;
+    width: 100px;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: #61db1a;
+}
+.account_btn:hover{
+        background-color: #61db1ac4;
+
+}
+.account_a{
+    font-size: 15px;
+}
+.book_h1{
+    color: #DDDDDD;
+}
+.label_book{
+    font-size: 18px;
+    color: #CCCCCC;
+}
+.q_ul{
+    padding: 60px 30px;
+    /* background-color: #4f4f72; */
+}
+.q_h1_green{
+    color: #86B817;
+}
+.q_h1{
+    color: red;
+}
+.q_text{
+    font-size: 18px;
+}
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -173,6 +248,12 @@
 /*** Hero Header ***/
 .hero-header {
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/car-insurance-claim-form-concept.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-header_book{
+    background-color: #0f0f11;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
